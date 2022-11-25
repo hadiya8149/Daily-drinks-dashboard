@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+.App{
+  font-family: sans-serif;
+  height: 100vh;
+  display:flex;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.main-container{
+  font-size:15px;
+  font-weight:500;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-body{
+  width:100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.add-btn{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 13px 30px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar{
+  position:fixed;
+  top:0;
+  height: 100vh;
+  bottom:0;
+  left:0;
+  padding: 58px 0 0 ;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 /5%), 0 2px 10px 0 rgb(0 0 0 /5%);
+  width: 240px;
+  z-index: 600;
+
+}
+button{
+  color:white;
+}
+header{
+  height: 75px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 /5%), 0 2px 10px 0 rgb(0 0 0 /5%)
+  
+
+}
+h5{
+  padding: 25px;
+  margin:10px;
+}
+h4{
+  padding-left:15px;
+}
+.list-group{
+  font-size:18px;
+}
+#\#addorder{
+  padding:25px;
+}
+#root > div > nav > div > div > a{
+  font-size:16px;
+}
+nav{
+  float:left;
+  display:inline;
+  margin:0;
+  padding:0;
+  flex-wrap:wrap;
+  align-items:baseline
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+#page-wrap{
+  float:left;
+  margin:0;
+  display: inline;
+  padding:0;
+  overflow-x:hidden;
+  width:100%;
+  min-height: calc(100vh - 7.5rem);
+
+}
+.table-container{
+  margin-left:auto;
+  margin-right:auto;
+  padding:10px;
+  display:flex;
+  flex-wrap: wrap;
+  width:95%;
+}
+.card-small {
+  box-shadow: 0 2px 0 rgb(90 97 105 / 11%), 0 4px 8px rgb(90 97 105 / 12%), 0 10px 10px rgb(90 97 105 / 6%), 0 7px 70px rgb(90 97 105 / 10%);
+  border: none;
+  border-radius: 0.625rem;
+}
+nav.sidebar.navbar.navbar-expand.navbar-light{
+  flex-wrap:wrap;
+  align-items:baseline;
+}
+textarea{
+  width:100%;
+  height:200px;
+}
+#submit{
+  margin:5px;
+}
+.row{
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 30px;
+  width: 95%;
+  padding: 12px;
+}
+.glyphicon{
+  font-size:13px;
+  margin:5px;
+}
+.glyphicon-remove{
+  color:red
 }

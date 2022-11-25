@@ -1,0 +1,5 @@
+export default{
+    CREATE_ORDER: "CREATE_ORDER",
+    EDIT_ORDER: "EDIT_ORDER",
+    DELETE_ORDER:"DELETE_ORDER"
+}
