@@ -17,7 +17,6 @@ div.main-container{
 }
 
 .sidebar{
-  position:fixed;
   top:0;
   height: 100vh;
   bottom:0;
@@ -70,7 +69,7 @@ nav{
   display: inline;
   padding:0;
   overflow-x:hidden;
-  width:100%;
+  width:75%;
   min-height: calc(100vh - 7.5rem);
 
 }
