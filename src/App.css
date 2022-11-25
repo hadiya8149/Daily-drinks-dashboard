@@ -45,9 +45,24 @@ h4{
 }
 .list-group{
   font-size:18px;
+
+}
+#root > div > nav{
+  display:flex;
+  flex-direction:column;
 }
 #\#addorder{
   padding:25px;
+}
+@media only screen and (max-width:640px) {
+  header {
+    order: 0;
+    height:50px;
+  }
+  .sidebar {
+    order: -1;
+    width:10%;
+  }
 }
 #root > div > nav > div > div > a{
   font-size:16px;
@@ -64,7 +79,6 @@ nav{
 
 
 #page-wrap{
-  float:left;
   margin:0;
   display: inline;
   padding:0;
@@ -111,3 +125,4 @@ textarea{
 .glyphicon-remove{
   color:red
 }
+
