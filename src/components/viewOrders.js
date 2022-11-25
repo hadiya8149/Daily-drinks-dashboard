@@ -1,11 +1,15 @@
-import {Component, React, useState} from "react";
+import {  useState} from "react";
+import React from "react";
 import{Link} from "react-router-dom";
 export default function  OrderTable(){
     const [data, setData]=useState(JSON.parse(localStorage.getItem("order_data")))
     let arr = []
     if (localStorage.getItem('order_data')!== null && localStorage.getItem("order_data")){
         arr=JSON.parse(localStorage.getItem('order_data'))
+        console.log(arr)
+        console.log(setData)
     }
+    
     return(
             <div id="page-wrap">
             <div className="main-container">

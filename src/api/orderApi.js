@@ -8,9 +8,9 @@ export  function saveOrder(order){
         arr.push({name:order.name, price:order.price, notes:order.notes})
         localStorage.setItem('order_data', JSON.stringify(arr))
 }
-function deleteOrder(order){
-    // do nothig
-}
-function editOrder(order){
-    //do nothing
-}
+// function deleteOrder(order){
+//     // do nothig
+// }
+// function editOrder(order){
+//     //do nothing
+// }

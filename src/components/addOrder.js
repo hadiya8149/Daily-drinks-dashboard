@@ -1,7 +1,7 @@
-import { React, useState} from "react"
+import { useState} from "react"
+import React from "react"
 import OrderForm from "./orderForm.js"
 // import saveOrder from "../api/orderApi.js";
-import orderStore from "../stores/orderStore.js"
 import * as orderActions from "../data/orderActions.js"
 const AddOrder = props =>{
     //array destructuring 
