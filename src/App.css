@@ -54,6 +54,9 @@ h4{
 #\#addorder{
   padding:25px;
 }
+.navbar-brand>img {
+  visibility:hidden;
+}
 @media only screen and (max-width:640px) {
   header {
     order: 0;
@@ -63,6 +66,18 @@ h4{
     order: -1;
     width:10%;
   }
+  h3{
+    visibility: hidden;
+
+  }
+  .navbar-brand>img {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 1px;
+    visibility: visible;
+
+}
 }
 #root > div > nav > div > div > a{
   font-size:16px;
