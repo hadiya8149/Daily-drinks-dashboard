@@ -8,7 +8,7 @@ export default function SideBar(){
     return(
         <Navbar className="sidebar"  >
             
-           <Container className="container">
+           <Container className="container-fluid">
                <Navbar.Brand href="/"><h3>Daily drinks Dashboard</h3><img src={img} alt="menu-icon" className="dashboard"></img></Navbar.Brand>
             <Nav>
                 <Nav.Link className="list-group list-group-flush mx-3 mt-4 nav-item" href="/addorder">Order</Nav.Link>
